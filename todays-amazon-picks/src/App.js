@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import GoogleSignInButton from './GoogleSignInButton';
+import AdColumns from './AdColumns';
+import TopBar from './TopBar';
 import { auth } from './firebaseConfig';
 import React, { useState, useEffect } from 'react';
 
@@ -17,7 +19,9 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Welcome to Your App</h1>
+      <TopBar />
+      <AdColumns />
+      <h1>Welcome to Your App. HERE ARE TODAYS TOP PICKS FROM AMAZON.COMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm</h1>
       <p>Hello, {user ? user.displayName || 'User' : 'Guest'}</p>
       {/* Place other authenticated user content here */}
       {user ? (
