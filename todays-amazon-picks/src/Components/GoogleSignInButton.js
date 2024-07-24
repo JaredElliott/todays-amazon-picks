@@ -1,6 +1,6 @@
 // src/GoogleSignInButton.js
 import React, { useState, useEffect } from 'react';
-import { auth, provider, signInWithPopup, signOut } from './firebaseConfig';
+import { auth, provider, signInWithPopup, signOut } from '../firebaseConfig';
 
 const GoogleSignInButton = () => {
   const [user, setUser] = useState(null);
