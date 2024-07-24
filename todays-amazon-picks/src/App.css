@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  margin-top: 4%; /* Leave space for the header */
+  padding: 1rem; /* Optional padding for content */
+  margin-left: 12.5%; /* Leave space for the left ad column */
+  margin-right: 12.5%; /* Leave space for the right ad column */
 }
 
 .App-logo {

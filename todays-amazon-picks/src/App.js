@@ -40,7 +40,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome to Your App</h1>
+      <TopBar />
+      <AdColumns />
+      <h1>Welcome to Your App. HERE ARE TODAYS TOP PICKS FROM AMAZON.COMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm</h1>
       <p>Hello, {user ? user.displayName || 'User' : 'Guest'}</p>
       {user ? (
         <div>
